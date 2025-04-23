@@ -12,8 +12,8 @@ from elevenlabs import Voice, VoiceSettings, generate, play, set_api_key
 # ==== CONFIGURATION ====
 
 # 🔑 API KEYS (replace with yours)
-genai.configure(api_key="AIzaSyBpgEXK5javiTVygOXuzFgTi4mnPzopjw8")
-set_api_key("sk_c7e055c72efcf4d2e5062c2dfdf3be7e485b5b15cc3a8e7f")
+genai.configure(api_key="GEMINI_API_KEY")
+set_api_key("ELEVEN_LABS_API_KEY")
 
 # ==== 1. Load and prepare PDF documents ====
 
